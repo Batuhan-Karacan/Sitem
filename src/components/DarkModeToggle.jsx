@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
+
 const DarkModeToggle = () => {
   const [darkMode, setDarkMode] = useState(false);
 
-  // Dark mode durumunu localStorage'da saklayalım
+  
   useEffect(() => {
     const savedMode = localStorage.getItem('darkMode') === 'true';
     setDarkMode(savedMode);
@@ -21,8 +22,8 @@ const DarkModeToggle = () => {
   return (
     <div>
     
-      <button onClick={toggleDarkMode}>
-        
+      <button className='darkmodeButton' onClick={toggleDarkMode}>
+        DARKMODE
       </button>
     </div>
   );

@@ -4,7 +4,8 @@ import DarkModeToggle from './components/DarkModeToggle';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"><button className='bisey2'></button>
+      
       <DarkModeToggle />
       <section className="header">
         <div>
@@ -80,21 +81,21 @@ function App() {
             <p>A brief description of project two goes here. It highlights my ability to create responsive designs.</p>
           </div>
           <div className="project">
-            <h3>Project Three</h3>
+            <h3>Pizza</h3>
             <p>A brief description of project three goes here. It demonstrates my expertise in full-stack development.</p>
-            <a href="https://github.com/Batuhan-Karacan" alt="GitHub">Github</a>
-            <a href="https://github.com/Batuhan-Karacan" alt="GitHub">View</a>
+            <a href="https://github.com/Batuhan-Karacan/fsweb-s4-bonus-challenge-html-pizza" alt="GitHub">Github</a>
+            <a href="https://fsweb-s4-bonus-challenge-html-pizza-9d6hlx94s.vercel.app/" alt="GitHub">View</a>
           </div>
         </div>
         </div>
       </section>
 
       <footer className="footer">
-        <div>
+        <div className='footers'> 
           <h2>Let's work together</h2>
           <p>k.batuhan96@icloud.com</p>
         </div>
-        <a href="https://github.com/Batuhan-Karacan" alt="GitHub">View</a>
+        <a href="https://github.com/Batuhan-Karacan" alt="GitHub"><img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub" /></a>
 
         
       </footer>
