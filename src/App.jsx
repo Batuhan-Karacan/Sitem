@@ -4,7 +4,7 @@ import DarkModeToggle from './components/DarkModeToggle';
 
 function App() {
   return (
-    <div className="App"><button className='bisey2'></button>
+    <div className="App"><button className='bisey2'>Dil</button>
       
       <DarkModeToggle />
       <section className="header">
@@ -77,8 +77,10 @@ function App() {
             <p>A brief description of project one goes here. It showcases my skills in React and Node.js.</p>
           </div>
           <div className="project">
-            <h3>Project Two</h3>
+            <h3>Login with Axios</h3>
             <p>A brief description of project two goes here. It highlights my ability to create responsive designs.</p>
+            <a href="https://github.com/Batuhan-Karacan/Login-axios-tekrar" alt="GitHub">Github</a>
+            <a href="https://login-axios-eight.vercel.app/login" alt="GitHub">View</a>
           </div>
           <div className="project">
             <h3>Pizza</h3>
@@ -94,8 +96,9 @@ function App() {
         <div className='footers'> 
           <h2>Let's work together</h2>
           <p>k.batuhan96@icloud.com</p>
+          <a href="https://github.com/Batuhan-Karacan" alt="GitHub"><img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub" /></a>
         </div>
-        <a href="https://github.com/Batuhan-Karacan" alt="GitHub"><img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub" /></a>
+        
 
         
       </footer>
