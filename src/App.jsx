@@ -24,7 +24,7 @@ function App() {
           </div>
         <img src="x" alt="" className="header-image" />
       </section>
-
+      <div className="line"></div>
       <section className="skills"><div>
       <h2>Skills</h2>
         <div className="container">
@@ -44,7 +44,7 @@ function App() {
         </div>
         </div>
       </section>
-
+      <div className="line"></div>
       <section className="profile"><h2>Profile</h2><div> <div className="container">
           
           <div className="profiles">
@@ -68,7 +68,7 @@ function App() {
           </div>
         </div>
       </section>
-
+      <div className="line"></div>
       <section className="projects"> <h2>Projects</h2><div>
         <div className="container">
          
@@ -77,26 +77,33 @@ function App() {
             <p>A brief description of project one goes here. It showcases my skills in React and Node.js.</p>
           </div>
           <div className="project">
+
             <h3>Login with Axios</h3>
             <p>A brief description of project two goes here. It highlights my ability to create responsive designs.</p>
-            <a href="https://github.com/Batuhan-Karacan/Login-axios-tekrar" alt="GitHub">Github</a>
-            <a href="https://login-axios-eight.vercel.app/login" alt="GitHub">View</a>
+            <div class="link-container"> <a href="https://github.com/Batuhan-Karacan/Login-axios-tekrar" alt="GitHub">Github</a></div>
+            <div class="link-container"><a href="https://login-axios-eight.vercel.app/login" alt="GitHub">View</a></div>
+           
+            
           </div>
           <div className="project">
             <h3>Pizza</h3>
             <p>A brief description of project three goes here. It demonstrates my expertise in full-stack development.</p>
-            <a href="https://github.com/Batuhan-Karacan/fsweb-s4-bonus-challenge-html-pizza" alt="GitHub">Github</a>
-            <a href="https://fsweb-s4-bonus-challenge-html-pizza-9d6hlx94s.vercel.app/" alt="GitHub">View</a>
+            <div class="link-container"><a href="https://github.com/Batuhan-Karacan/fsweb-s4-bonus-challenge-html-pizza" alt="GitHub">Github</a></div>
+            <div class="link-container"><a href="https://fsweb-s4-bonus-challenge-html-pizza-9d6hlx94s.vercel.app/" alt="GitHub">View</a></div>
           </div>
         </div>
         </div>
       </section>
-
+      <div className="line"></div>
+      
       <footer className="footer">
         <div className='footers'> 
           <h2>Let's work together</h2>
           <p>k.batuhan96@icloud.com</p>
           <a href="https://github.com/Batuhan-Karacan" alt="GitHub"><img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub" /></a>
+          <a href="https://www.linkedin.com/in/nihat-batuhan-karacan-97112217a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+              <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" />
+            </a>
         </div>
         
 

@@ -34,6 +34,7 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  margin-left: 2rem;
 }
 
 button {
@@ -65,7 +66,18 @@ button:focus-visible {
   right: 150px; 
   background-color: yellow;
 }
-
+.line {
+  border-top: 1px solid blue; /* Çizginin kalınlığı ve rengi */
+  margin: 1rem 0; /* Çizgi ile üstteki ve alttaki içerik arasındaki boşluk */
+  width: 80%; 
+  margin-left: 5rem;
+}
+.link-container {
+  border: 1px solid blue; /* Mavi çerçeve */
+  padding: 10px; /* İçerik ile çerçeve arasında boşluk */
+  margin-bottom: 10px; /* Alt kısımda boşluk ekler */
+  display: inline-block; /* Çerçevenin içeriği sarmalamasını sağlar */
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
